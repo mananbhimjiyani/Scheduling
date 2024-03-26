@@ -43,5 +43,6 @@ int main(){
     int burst_time[] = {10,5,8};
 
     findAvgTime(preocess, n, burst_time);
+
     return 0;
 }
