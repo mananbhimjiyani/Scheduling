@@ -7,7 +7,8 @@ Welcome to the Scheduling Algorithms repository! This repository provides an ove
 1. [Preemptive Shortest Job First (SJF)](#preemptive-shortest-job-first-sjf)
 2. [Round Robin](#round-robin)
 3. [First-Come, First-Served (FCFS)](#first-come-first-served-fcfs)
-4. [Conclusion](#conclusion)
+4. [Shortest Remaining Time First (SRTF)](#shortest-remaining-time-first-SRTF)
+5. [Conclusion](#conclusion)
 
 ## Preemptive Shortest Job First (SJF)
 Preemptive SJF is a scheduling algorithm that selects the process with the smallest execution time to execute next. In a preemptive SJF scheduling, the running process can be interrupted by a newly arrived process with a shorter burst time. This algorithm aims to minimize the average waiting time and turnaround time of processes.
@@ -64,3 +65,4 @@ Feel free to contribute to this repository by adding further insights, examples,
 - [Manan Bhimjiyani](https://github.com/mananbhimjiyani)
 - [Ayushi Kapgate](https://github.com/p0tat0dewd)
 - [Kevin Tandon](https://github.com/kev0-4)
+- [Manas Jain](https://github.com/mj281103)
