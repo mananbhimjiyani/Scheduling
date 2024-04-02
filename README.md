@@ -42,10 +42,21 @@ FCFS is the simplest scheduling algorithm, where processes are executed in the o
 - May result in longer average waiting times, especially if long processes arrive first (convoy effect).
 - Not suitable for time-sensitive or interactive systems.
 
+## Shortest Remaining Time First (SRTF)
+Shortest Remaining Time First (SRTF) is a preemptive scheduling algorithm that selects the process with the smallest remaining burst time to execute next. Unlike SJF, SRTF recalculates the remaining burst time of each process at every context switch or arrival of a new process. This ensures that shorter processes are given priority, even if a shorter process arrives while a longer process is executing.
+
+***Advantages:***
+- Minimizes average waiting time and turnaround time, as shorter jobs are prioritized.
+- Provides better response time for short interactive tasks.
+***Limitations: ***
+- Requires frequent context switching, which may lead to overhead.
+- Can lead to starvation for longer processes if shorter processes keep arriving continuously.
+
 ## Conclusion
 Understanding various CPU scheduling algorithms is crucial for designing efficient operating systems and improving system performance. Each scheduling algorithm has its own set of advantages, limitations, and suitable use cases. This repository aims to provide a starting point for exploring these fundamental scheduling algorithms.
 
 Feel free to contribute to this repository by adding further insights, examples, or real-world use cases of these scheduling algorithms. Your contributions are valuable for enhancing the understanding and applicability of these concepts in practical scenarios.
+
 
 ---
 
